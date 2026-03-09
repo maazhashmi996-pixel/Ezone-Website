@@ -26,7 +26,7 @@ export default function Hero() {
           Ezone makes your study abroad dreams a reality with expert consulting.
         </p>
 
-        <button className="bg-blue-600 px-10 py-4 rounded-full text-lg font-semibold">
+        <button className="bg-blue-600 px-10 py-4 rounded-md text-lg font-semibold">
           Explore Destinations
         </button>
 

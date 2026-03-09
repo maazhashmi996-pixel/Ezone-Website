@@ -1,9 +1,10 @@
 import "./globals.css";
 import Navbar from "@/app/components/layout/Navbar";
+import Footer from "./components/layout/Footer";
 
 export const metadata = {
   title: "EZONE | Study Abroad",
-  description: "Global Education Consultants",
+  description: "Study abroad consultancy website",
 };
 
 export default function RootLayout({
@@ -13,11 +14,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body>
 
         <Navbar />
 
         {children}
+
+         <Footer />
 
       </body>
     </html>

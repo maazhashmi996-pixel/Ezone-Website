@@ -95,3 +95,52 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary-blue);
 }
+/* STUDY DESTINATIONS */
+
+.destinations-section{
+padding:80px 10%;
+background:#f7f9fc;
+}
+
+.destinations-title{
+font-size:36px;
+font-weight:700;
+margin-bottom:40px;
+color:#0f172a;
+}
+
+.destinations-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+}
+
+.destination-card{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 22px;
+border-radius:10px;
+text-decoration:none;
+background:white;
+font-size:18px;
+color:#334155;
+border:1px solid #e2e8f0;
+transition:0.3s;
+}
+
+.destination-card:hover{
+transform:translateX(6px);
+border-color:#2563eb;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+}
+
+.walk-icon{
+font-size:20px;
+color:#2563eb;
+transition:0.3s;
+}
+
+.destination-card:hover .walk-icon{
+transform:translateX(6px);
+}
